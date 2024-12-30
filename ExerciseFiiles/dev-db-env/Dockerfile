@@ -7,5 +7,4 @@ RUN apk update && apk add sqlite
 # Set the default working directory
 WORKDIR /db
  
-# Set the default command to open SQLite
-CMD ["sqlite3"]
+# Set the default command to open SQLi
